@@ -124,3 +124,19 @@ Calculated window size = 513 * 256 = 131328 bytes. Onde 513 era a propria janela
 8. 
 
 9. 
+
+## 3. Controle de Congestionamento do TCP
+
+1. **Observe o gráfico gerado. Você consegue identificar onde termina a fase de partida lenta do TCP e comeca a fase de congestion avoidance? Justifique.**
+
+**Resposta:** A fase de partida lenta termina e a de congestion avoidance começa quando o crescimento dos números de sequência passa de exponencial para linear. Esse ponto no gráfico é identificado pela mudança na inclinação da curva, que se torna menos acentuada.
+
+2. **Discuta as diferenças de comportamento do TCP no gráfico feito a partir das medidas e o gráfico teórico apresentado no texto.**
+
+**Resposta:** No gráfico teórico, o crescimento é suave e previsível após a fase de partida lenta. No gráfico real, o comportamento é mais irregular por causa de condições como perda de pacotes e variações de latência, que afetam o desempenho do TCP.
+
+
+
+
+
+
